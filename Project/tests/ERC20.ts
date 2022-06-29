@@ -3,20 +3,20 @@ import { expect } from "chai";
 import { BytesLike } from "ethers";
 import { ethers } from "hardhat";
 // eslint-disable-next-line node/no-missing-import
-import { EncodeBootcampMayToken } from "../typechain";
+import { EncodeBootcampJuneToken } from "../typechain";
 
 const PREMINT = ethers.utils.parseEther("0");
 const TEST_MINT_VALUE = ethers.utils.parseEther("10");
 
 describe("Testing ERC20 Token", () => {
-  let tokenContract: EncodeBootcampMayToken;
+  let tokenContract: EncodeBootcampJuneToken;
   let accounts: any[];
   let minterRoleHash: BytesLike;
 
   beforeEach(async () => {
     accounts = await ethers.getSigners();
     const tokenFactory = await ethers.getContractFactory(
-      "EncodeBootcampMayToken"
+      "EncodeBootcampJuneToken"
     );
     tokenContract = await tokenFactory.deploy();
     await tokenContract.deployed();

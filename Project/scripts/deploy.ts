@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 import "dotenv/config";
-import * as tokenJson from "../artifacts/contracts/ERC20.sol/EncodeBootcampMayToken.json";
+import * as tokenJson from "../artifacts/contracts/ERC20.sol/EncodeBootcampJuneToken.json";
 
 // This key is already public on Herong's Tutorial Examples - v1.03, by Dr. Herong Yang
 // Do never expose your keys like this
