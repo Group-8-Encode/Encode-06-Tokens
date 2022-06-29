@@ -64,6 +64,7 @@ https://docs.openzeppelin.com/contracts/4.x/access-control
 * Contract factory and json imports
 * Transaction receipts and async complexities when running onchain
 # Homework
+* Create Github Issues with your questions about this lesson
 * Read the references
 * Complete the operation scripts for ERC20 and ERC721
 * (Optional) Study test structure for ERC20 contract from [OpenZeppelin Contracts Library](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/test/token/ERC20)
